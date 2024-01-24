@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="methods" thread-count="2">
-	<!-- <listeners>
-		<listener class-name="com.listeners.MyListener"></listener>
-		<listener class-name="com.listeners.SetRetry"></listener>
-	</listeners> -->
 	<test name="FF Test">
 	
 		<classes>
-			<class name="com.tests.DemoTest" />
+			<class name="com.tests.NewTest" />
 		</classes>
 	</test>
 
